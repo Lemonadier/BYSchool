@@ -1,0 +1,16 @@
+ [
+   {
+     "year": "2568",
+     "totalStudents": 19,
+     "maleStudents": 9,
+     "femaleStudents": 10,
+     "classBreakdown": [
+       {
+         "level": "อนุบาล 3",
+         "male": 9,
+         "female": 10,
+         "total": 19
+       }
+     ]
+   }
+ ]

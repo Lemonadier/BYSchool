@@ -1,0 +1,55 @@
+<div class="bg-white p-8 rounded-xl shadow-lg animate__animated animate__fadeInUp_disabled">
+    <h1 class="text-2xl font-bold text-blue-800 mb-6 pb-2 border-b-2 border-blue-200">ข้อมูลนักเรียน</h1>
+    <p class="text-gray-700 mb-6">ข้อมูลจำนวนนักเรียนโรงเรียนบ้านหยวก ประจำปีการศึกษา [กรุณาระบุปีการศึกษา]</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-blue-50 p-6 rounded-lg text-center">
+            <h2 class="text-4xl font-bold text-blue-800">[120]</h2>
+            <p class="text-gray-600 mt-2">นักเรียนทั้งหมด</p>
+        </div>
+        <div class="bg-green-50 p-6 rounded-lg text-center">
+            <h2 class="text-4xl font-bold text-green-800">[65]</h2>
+            <p class="text-gray-600 mt-2">นักเรียนชาย</p>
+        </div>
+        <div class="bg-pink-50 p-6 rounded-lg text-center">
+            <h2 class="text-4xl font-bold text-pink-800">[55]</h2>
+            <p class="text-gray-600 mt-2">นักเรียนหญิง</p>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto mt-8">
+        <h3 class="text-xl font-semibold text-blue-700 mb-4">จำนวนนักเรียนแยกตามระดับชั้น</h3>
+        <table class="min-w-full bg-white border border-gray-200">
+            <thead class="bg-blue-100">
+                <tr>
+                    <th class="py-3 px-4 border-b text-left text-sm font-semibold text-blue-800">ระดับชั้น</th>
+                    <th class="py-3 px-4 border-b text-center text-sm font-semibold text-blue-800">ชาย</th>
+                    <th class="py-3 px-4 border-b text-center text-sm font-semibold text-blue-800">หญิง</th>
+                    <th class="py-3 px-4 border-b text-center text-sm font-semibold text-blue-800">รวม</th>
+                </tr>
+            </thead>
+            <tbody class="text-gray-700">
+                <tr>
+                    <td class="py-3 px-4 border-b">อนุบาล 2</td>
+                    <td class="py-3 px-4 border-b text-center">[10]</td>
+                    <td class="py-3 px-4 border-b text-center">[8]</td>
+                    <td class="py-3 px-4 border-b text-center font-bold">[18]</td>
+                </tr>
+                <tr>
+                    <td class="py-3 px-4 border-b">อนุบาล 3</td>
+                    <td class="py-3 px-4 border-b text-center">[12]</td>
+                    <td class="py-3 px-4 border-b text-center">[10]</td>
+                    <td class="py-3 px-4 border-b text-center font-bold">[22]</td>
+                </tr>
+                <!-- เพิ่มข้อมูลชั้นอื่นๆ ตามความเหมาะสม -->
+                <tr class="bg-blue-50 font-bold">
+                    <td class="py-3 px-4 border-b text-right">รวมทั้งหมด</td>
+                    <td class="py-3 px-4 border-b text-center">[65]</td>
+                    <td class="py-3 px-4 border-b text-center">[55]</td>
+                    <td class="py-3 px-4 border-b text-center">[120]</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="text-sm text-gray-500 mt-4">* หมายเหตุ: ข้อมูลข้างต้นเป็นข้อมูลตัวอย่าง กรุณาแทนที่ด้วยข้อมูลจริง</p>
+    </div>
+</div>

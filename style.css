@@ -1,0 +1,29 @@
+/* CSS สำหรับ Sticky Footer */
+html, body {
+    height: 100%; /* ทำให้ html และ body มีความสูงเต็ม viewport */
+    margin: 0; /* ลบ margin เริ่มต้นของ body */
+    padding: 0; /* ลบ padding เริ่มต้นของ body */
+}
+
+body {
+    display: flex; /* ใช้ Flexbox สำหรับการจัดเรียง */
+    flex-direction: column; /* จัดเรียง children ในแนวตั้ง (Header, Content, Footer) */
+}
+
+/* ส่วนเนื้อหาหลักที่ควรขยายเพื่อดัน footer ลงไปด้านล่าง */
+#dynamic-content-area {
+    flex-grow: 1; /* ทำให้ส่วนนี้ขยายเต็มพื้นที่ที่เหลือทั้งหมด */
+}
+
+/* กำหนด font-family ทั่วไปสำหรับทั้งเว็บ */
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+/* Animation control */
+.animate__animated {
+    visibility: none; /* Hide elements by default */
+}
+.animate__animated.animate__active {
+    visibility: none; /* Make visible when animation is active */
+}

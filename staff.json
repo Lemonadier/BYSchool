@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "นายอดุลย์ เถาวัลย์",
+    "position": "ผู้อำนวยการโรงเรียน",
+    "subject": "การบริหาร",
+    "phone": "08x-xxx-xxxx",
+    "imageUrl": "https://sdmntprukwest.oaiusercontent.com/files/00000000-7088-6243-b36f-41b47bf92bbb/raw?se=2025-06-28T09%3A35%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=5237dbbc-f3ef-5026-b1e0-3247544f75e4&skoid=c156db82-7a33-468f-9cdd-06af263ceec8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-27T21%3A14%3A41Z&ske=2025-06-28T21%3A14%3A41Z&sks=b&skv=2024-08-04&sig=5mjMl5DcpONq5m12qTRjpp1%2BHc6WGpVOOvKwzk/GCCA%3D"
+  },
+  {
+    "id": 2,
+    "name": "ว่าที่ ร.ต.จรูญ  คันธะระ",
+    "position": "รองผู้อำนวยการโรงเรียน",
+    "subject": "None",
+    "phone": "06x-xxx-xxxx",
+    "imageUrl": "pictures/staffs/principle2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "คุณครู ดุจดาว มาลาแสง",
+    "position": "ครูประจำชั้น อนุบาล 3",
+    "subject": "None",
+    "phone": "087-236-0691",
+    "imageUrl": "pictures/staffs/dujdao.jpg"
+  }
+]

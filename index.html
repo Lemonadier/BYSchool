@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โรงเรียนบ้านหยวก</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo and School Name (Clickable to go home) -->
+            <a href="#" class="flex items-center space-x-4 nav-item" data-page="home">
+                <div class="w-16 h-16 bg-blue-200 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden">
+                    <img src="https://scontent.fnak3-1.fna.fbcdn.net/v/t39.30808-6/356863621_679394607565466_4752567222127792996_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=EZ-ZUekbQv4Q7kNvwGRgFSY&_nc_oc=AdkxCEZNZOW1iCxh0P0AOITomLkk-LxV2If6WY-KEJIkl3-8YYRLdaN12ECyW6hUcE4&_nc_zt=23&_nc_ht=scontent.fnak3-1.fna&_nc_gid=ril3-2rYJujwTLmtyhLNjA&oh=00_AfMP8arKbYo_sBllMgaaWOa-dQEnERZIkV0st7s25_DSmg&oe=686434D7" alt="โลโก้โรงเรียนบ้านหยวก" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold text-blue-800">โรงเรียนบ้านหยวก - งานปฐมวัย</h1>
+                    <p class="text-sm text-gray-500">สังกัด สพป.อุดรธานี เขต ๔</p>
+                </div>
+            </a>
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center space-x-2"> 
+                <a class="px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-700 rounded-md cursor-pointer bg-blue-600 nav-item" data-page="home">หน้าแรก</a>
+                <a class="px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-700 rounded-md cursor-pointer bg-blue-600 nav-item" data-page="staff">บุคลากร</a>
+                <a class="px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-700 rounded-md cursor-pointer bg-blue-600 nav-item" data-page="news">ข่าวประชาสัมพันธ์</a>
+                <a class="px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-700 rounded-md cursor-pointer bg-blue-600 nav-item" data-page="gallery">ภาพกิจกรรม</a>
+                <a class="px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-700 rounded-md cursor-pointer bg-blue-600 nav-item" data-page="qa">ถาม-ตอบ</a>
+                <a class="px-4 py-2 text-white transition-colors duration-300 hover:bg-blue-700 rounded-md cursor-pointer bg-blue-600 nav-item" data-page="contact">ติดต่อเรา</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="lg:hidden text-blue-800 focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden px-4 pb-4 space-y-1"> 
+             <a class="block px-4 py-2 text-gray-700 transition-colors duration-200 hover:bg-blue-100 hover:text-blue-800 rounded-md nav-item" data-page="home">หน้าแรก</a>
+             <a class="block px-4 py-2 text-gray-700 transition-colors duration-200 hover:bg-blue-100 hover:text-blue-800 rounded-md nav-item" data-page="staff">บุคลากร</a>
+             <a class="block px-4 py-2 text-gray-700 transition-colors duration-200 hover:bg-blue-100 hover:text-blue-800 rounded-md nav-item" data-page="news">ข่าวประชาสัมพันธ์</a>
+             <a class="block px-4 py-2 text-gray-700 transition-colors duration-200 hover:bg-blue-100 hover:text-blue-800 rounded-md nav-item" data-page="gallery">ภาพกิจกรรม</a>
+             <a class="block px-4 py-2 text-gray-700 transition-colors duration-200 hover:bg-blue-100 hover:text-blue-800 rounded-md nav-item" data-page="qa">ถาม-ตอบ</a>
+             <a class="block px-4 py-2 text-gray-700 transition-colors duration-200 hover:bg-blue-100 hover:text-blue-800 rounded-md nav-item" data-page="contact">ติดต่อเรา</a>
+        </div>
+    </header>
+
+    <!-- Main content area for dynamically loaded pages -->
+    <div id="dynamic-content-area">
+        <!-- Content will be loaded here by script.js -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white mt-12 mb-0">
+        <div class="container mx-auto px-4 py-8 text-center">
+            <h3 class="text-xl font-bold mb-2">โรงเรียนบ้านหยวก</h3>
+            <p>บ้านหยวก, ตำบล บ้านหยวก อำเภอ น้ำโสม อุดรธานี 41210 | 087 236 0691 | banyuak@hotmail.com</p> 
+            <p class="mt-4 text-sm text-blue-200">&copy; 2024 โรงเรียนบ้านหยวก. สงวนลิขสิทธิ์.</p>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox Modal -->
+    <div id="image-lightbox" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 cursor-pointer">
+        <button id="lightbox-close" class="absolute top-4 right-6 text-white text-5xl font-bold hover:text-gray-300 cursor-pointer">&times;</button>
+        <div class="relative">
+            <img id="lightbox-image" src="" alt="Full-size view" class="max-w-[90vw] max-h-[90vh] object-contain rounded-lg">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- End of The File 2 -->
