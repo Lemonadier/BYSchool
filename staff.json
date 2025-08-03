@@ -5,7 +5,7 @@
     "position": "ผู้อำนวยการโรงเรียน",
     "subject": "การบริหาร",
     "phone": "08x-xxx-xxxx",
-    "imageUrl": "pictures/principle.png"
+    "imageUrl": "https://main.d1sv01qp9rfbue.amplifyapp.com/pictures/principle.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "position": "รองผู้อำนวยการโรงเรียน",
     "subject": "None",
     "phone": "06x-xxx-xxxx",
-    "imageUrl": "pictures/staffs/principle2.jpg"
+    "imageUrl": "https://main.d1sv01qp9rfbue.amplifyapp.com/pictures/staffs/principle2.jpg"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "position": "ครูประจำชั้น อนุบาล 3",
     "subject": "None",
     "phone": "087-236-0691",
-    "imageUrl": "pictures/staffs/dujdao.jpg"
+    "imageUrl": "https://main.d1sv01qp9rfbue.amplifyapp.com/pictures/staffs/dujdao.jpg"
   }
 ]
